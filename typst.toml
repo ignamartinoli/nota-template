@@ -1,0 +1,25 @@
+[package]
+name = "nota-template"
+version = "1.0.0"
+entrypoint = "src/lib.typ"
+authors = [ "Tano Martinoli" ]
+license = "GNU GPL 3"
+description = "Nota template ashey"
+repository = "https://github.com/ignamartinoli/nota-template"
+keywords = [ "nota" ]
+categories = [ "text" ]
+exclude = [
+  ".github",
+  "docs",
+  "scripts",
+  "tests",
+  ".typstignore",
+  "Justfile",
+  "example.pdf",
+  "example.png"
+]
+
+# [template]
+# path       = "template"
+# entrypoint = "main.typ"
+# thumbnail  = "thumbnail.png"
